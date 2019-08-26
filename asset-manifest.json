@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.fe67fbe8.chunk.js",
-    "main.js.map": "/static/js/main.fe67fbe8.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.d2b6793d.js",
-    "runtime~main.js.map": "/static/js/runtime~main.d2b6793d.js.map",
-    "static/js/2.ab755b92.chunk.js": "/static/js/2.ab755b92.chunk.js",
-    "static/js/2.ab755b92.chunk.js.map": "/static/js/2.ab755b92.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6cf5cf40e4c011be2e4266514120b0d2.js": "/precache-manifest.6cf5cf40e4c011be2e4266514120b0d2.js",
-    "service-worker.js": "/service-worker.js"
+    "main.js": "/react-toy-robot/static/js/main.f5f37e19.chunk.js",
+    "main.js.map": "/react-toy-robot/static/js/main.f5f37e19.chunk.js.map",
+    "runtime~main.js": "/react-toy-robot/static/js/runtime~main.72c18fbc.js",
+    "runtime~main.js.map": "/react-toy-robot/static/js/runtime~main.72c18fbc.js.map",
+    "static/js/2.73e44486.chunk.js": "/react-toy-robot/static/js/2.73e44486.chunk.js",
+    "static/js/2.73e44486.chunk.js.map": "/react-toy-robot/static/js/2.73e44486.chunk.js.map",
+    "index.html": "/react-toy-robot/index.html",
+    "precache-manifest.d417435272c003cfe4a4b0695f6836d9.js": "/react-toy-robot/precache-manifest.d417435272c003cfe4a4b0695f6836d9.js",
+    "service-worker.js": "/react-toy-robot/service-worker.js"
   }
 }
