@@ -1,5 +1,5 @@
 {
-  "name": "robot-challenge",
+  "name": "react-toy-robot",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -93,6 +93,7 @@
       "enzyme-to-json/serializer"
     ]
   },
+  "homepage": "https://kidjp85.github.io/react-toy-robot",
   "browserslist": {
     "production": [
       ">0.2%",
