@@ -1,0 +1,107 @@
+{
+  "name": "robot-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false --coverage",
+    "eject": "react-scripts eject",
+    "linting": "yarn lint:ts && yarn lint:style",
+    "lint:ts": "eslint 'src/**/*.ts?(x)'",
+    "lint:ts:fix": "eslint --fix 'src/**/*.ts?(x)'",
+    "lint:style": "stylelint 'src/**/*.ts?(x)'",
+    "lint:style:fix": "stylelint 'src/**/*.ts?(x)' --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint",
+      "stylelint",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@react-yuki/hooks": "^0.0.33",
+    "@react-yuki/icons": "^0.0.33",
+    "@react-yuki/ui": "^0.0.33",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.0.21",
+    "typesafe-actions": "^4.4.2"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.1.0",
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.17",
+    "@types/node": "12.7.1",
+    "@types/react": "16.9.1",
+    "@types/react-dom": "16.8.5",
+    "@types/react-redux": "^7.1.1",
+    "@types/redux-mock-store": "^1.0.1",
+    "@types/styled-components": "^4.1.18",
+    "@types/styled-system": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "csstype": "^2.6.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.11.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^3.0.3",
+    "lint-staged": "^9.2.0",
+    "prettier": "^1.18.2",
+    "react-scripts": "3.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.3",
+    "stylelint": "^10.1.0",
+    "stylelint-config-idiomatic-order": "^7.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-order": "^3.0.1",
+    "stylelint-processor-styled-components": "^1.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "3.5.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "Asher Nguyen <phucnguyenhoang1985@gmail.com>",
+  "license": "MIT"
+}
