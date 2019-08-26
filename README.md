@@ -35,7 +35,7 @@ commands.
 
 ## Completed application screenshot
 
-![alt screenshot](https://i.imgur.com/omt17FU.png)
+![alt screenshot](https://i.imgur.com/Edji2qt.png)
 
 ## Built with
 
