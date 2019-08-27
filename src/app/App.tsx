@@ -8,6 +8,7 @@ import Table from 'app/components/table';
 import Command from 'app/containers/Command';
 import InfoBox from 'app/components/infoBox';
 import createStore from 'app/utils/store';
+import Footer from 'app/components/footer';
 import { DESCRIPTIONS, INSTRUCTIONS } from 'app/configs/constants';
 
 const store = createStore();
@@ -29,6 +30,7 @@ const App = () => (
             <Table />
           </Flex>
         </Container>
+        <Footer />
       </>
     </ThemeProvider>
   </Provider>
