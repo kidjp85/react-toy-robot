@@ -6,7 +6,7 @@ import { buildComponent } from 'testHelpers';
 export const buildContainerWrapper = <P, T>(
   store: Store,
   Container: SFC<P> | ComponentClass<P, T> | ReactElement<P>,
-  type: string = 'mount',
+  type = 'mount',
   props: P
 ) => {
   const content = isValidElement(Container) ? Container : <Container {...props} />;

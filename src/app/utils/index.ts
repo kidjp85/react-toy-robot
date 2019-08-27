@@ -38,7 +38,7 @@ export const getErrorMessage: GetErrorMessages = ({
 
   const command = commandValues[0];
 
-  let errors: ErrorMessages = {
+  const errors: ErrorMessages = {
     placeError: '',
     inputError: ''
   };

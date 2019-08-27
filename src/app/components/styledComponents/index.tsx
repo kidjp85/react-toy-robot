@@ -14,7 +14,7 @@ export const Container: SFC<FlexBoxProps> = ({ children, ...rest }) => (
   </Flex>
 );
 
-export const heightByWidth = (percentage: number = 100) => css`
+export const heightByWidth = (percentage = 100) => css`
   &:before {
     display: block;
     padding-top: ${percentage}%;

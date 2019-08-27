@@ -8,7 +8,7 @@ export const mockStore = createStore(middlewares);
 
 export const buildComponent = (
   Component: JSX.Element,
-  type: string = 'mount'
+  type = 'mount'
 ): ShallowWrapper | ReactWrapper => {
   switch (type) {
     case 'shallow': {
