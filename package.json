@@ -75,7 +75,7 @@
     "react-scripts": "3.1.1",
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.3",
-    "stylelint": "^10.1.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-idiomatic-order": "^7.0.3",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recommended": "^2.2.0",
